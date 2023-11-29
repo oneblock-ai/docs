@@ -1,0 +1,93 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #2d64da;
+  --ifm-color-primary-dark: #2358c9;
+  --ifm-color-primary-darker: #2153be;
+  --ifm-color-primary-darkest: #1c459d;
+  --ifm-color-primary-light: #4375de;
+  --ifm-color-primary-lighter: #4f7de0;
+  --ifm-color-primary-lightest: #7096e6;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #4e89e8;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+.ob-subtitle {
+  padding: 0px 10px 10px 10px !important;
+  font-size: 1.0rem !important;
+  max-width: 800px !important;
+  margin: auto !important;
+}
+.hero-bg {
+  /* background: linear-gradient(to bottom, #2d64da 70%, pink); */
+  background: linear-gradient(to bottom right, #1c459d, #7096e6);
+}
+
+.header-container.container {
+  padding: 13rem 0 !important;
+  /*background: linear-gradient(to bottom right, blue, pink);*/
+  background-image: url('/img/pattern-lg-light.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  z-index: 100;
+}
+
+.container {
+  padding: 3rem 0 !important;
+}
+
+.footer .container {
+  background-image: url('/img/pattern-lg-light.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  z-index: 100;
+}
+
+.features_src-components-HomepageFeatures-styles-module .col:nth-child(3) .featureSvg_src-components-HomepageFeatures-styles-module {
+  scale: 1.6;
+}
+
+.button-primary-hold {
+  background-color: #2151bb !important;
+  border-color: #2d64da !important;
+  color: white !important;
+  margin-top: 10px;
+}
+
+.button-primary-hold:hover {
+  background-color: #3a7bd5 !important;
+  color: white !important;
+  margin-top: 10px;
+}
+
+.navbar__link svg{
+  display: none!important;
+}
+
+.footer__link-item svg{
+  display: none!important;
+}
+
+/*======= css for docs ======*/
+img[alt=img-architecture] {
+  max-width: 750px;
+}
