@@ -147,8 +147,7 @@ const config = {
     [
       '@docusaurus/plugin-google-gtag',
       {
-        trackingID: 'GTM-PBDCNDNC',
-        anonymizeIP: true,
+        trackingID: 'GTM-KK97PBTN',
       },
     ],
   ],
