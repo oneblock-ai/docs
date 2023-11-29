@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[918],{4308:(s,c,d)=>{d.d(c,{Z:()=>u});d(7294);var e=d(8413),n=d(7814),a=d(3636),k=d(3024),o=d(9417);a.vI.add(k.vnX,o.mRB);const u={...e.Z,Icon:n.G}}}]);
